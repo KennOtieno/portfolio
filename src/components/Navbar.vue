@@ -108,15 +108,15 @@ const scrollTo = (target) => {
           </li>
           <div class="flex items-center gap-3 mt-2">
             <a
-              href="https://github.com/munene-m"
+              href="https://github.com/KennOtieno"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="View my Github page"
+              aria-label="View my Github"
               ><GithubIcon
                 class="transition-all duration-300 hover:text-cyan-500"
             /></a>
             <a
-              href="mailto:munenenjue18@gmail.com"
+              href="mailto:kennedyotieno.data@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Reach out to me on email"
@@ -124,10 +124,10 @@ const scrollTo = (target) => {
                 class="transition-all duration-300 hover:text-cyan-500"
             /></a>
             <a
-              href="https://www.linkedin.com/in/macmillan-munene-b97235204/"
+              href="https://www.linkedin.com/in/kennedy-otieno/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Link to my linkedIn"
+              aria-label="Link to my LinkedIn"
               ><LinkedInIcon
                 class="transition-all duration-300 hover:text-cyan-500"
             /></a>

@@ -11,21 +11,21 @@ import LinkedInIcon from "./icons/LinkedInIcon.vue";
     <p class="flex items-center text-center">Find me here 👇</p>
     <div class="grid grid-cols-3 gap-2 pt-1 place-items-center">
       <a
-        href="https://github.com/munene-m"
+        href="https://github.com/KennOtieno"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="View my Github page"
         ><GithubIcon class="transition-all duration-300 hover:text-cyan-500"
       /></a>
       <a
-        href="mailto:munenenjue18@gmail.com"
+        href="mailto:kennedyotieno.data@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Reach out to me on email"
         ><GmailIcon class="transition-all duration-300 hover:text-cyan-500"
       /></a>
       <a
-        href="https://www.linkedin.com/in/macmillan-munene-b97235204/"
+        href="https://www.linkedin.com/in/kennedy-otieno/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Link to my linkedIn"

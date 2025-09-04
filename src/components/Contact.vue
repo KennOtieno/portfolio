@@ -9,9 +9,10 @@
       Get in touch
     </h2>
     <p class="md:w-1/2 m-auto text-center text-sm md:text-base">
-      I am currently looking for opportunities as a junior software engineer and
-      I'm always free to talk about that and any other interesting projects you
-      may have.
+      I'm focused on building backend systems that are secure, scalable, and reliable.
+      If you're looking for someone who can turn complex requirements into practical
+      solutions, let's connect.
+
     </p>
     <button
       aria-label="redirectToEmail"
@@ -25,8 +26,8 @@
 
 <script setup>
 function redirectToEmail() {
-  const emailAddress = "munenenjue18@gmail.com";
-  const subject = "Hello Mac";
+  const emailAddress = "kennedyotieno.data@gmail.com";
+  const subject = "Hello Kennedy";
 
   const emailUrl = `mailto:${emailAddress}?subject=${encodeURIComponent(
     subject
