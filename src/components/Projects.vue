@@ -6,20 +6,20 @@ import GithubIcon from "./icons/GithubIcon.vue";
 const tools = [
   {
     id: 6,
-    name: "Javascript (ES6+)",
+    name: "Django",
   },
   {
     id: 1,
-    name: "Vue.js",
+    name: "Laravel",
   },
 
   {
     id: 4,
-    name: "Node.js",
+    name: "SQL",
   },
   {
     id: 5,
-    name: "Express js",
+    name: "Python",
   },
   {
     id: 3,

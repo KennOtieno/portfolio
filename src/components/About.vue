@@ -32,7 +32,7 @@ const tools = [
   },
   {
     id: 7,
-    name: "PostgreSQL",
+    name: "SQL",
   },
   {
     id: 8,
