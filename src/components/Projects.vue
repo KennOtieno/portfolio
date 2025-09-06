@@ -30,7 +30,7 @@ const tools = [
   },
 
   {
-    id: 2
+    id: 2,
     name: "Flutter"
   },
 ];
