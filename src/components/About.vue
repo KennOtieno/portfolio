@@ -11,7 +11,7 @@ const tools = [
   },
   {
     id: 1,
-    name: "AWS",
+    name: "Python",
   },
 
   {
@@ -24,7 +24,7 @@ const tools = [
   },
   {
     id: 3,
-    name: "Golang",
+    name: "PHP",
   },
   {
     id: 2,

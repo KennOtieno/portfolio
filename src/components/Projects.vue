@@ -5,29 +5,33 @@ import GithubIcon from "./icons/GithubIcon.vue";
 
 const tools = [
   {
-    id: 6,
-    name: "Django",
+    id : 6,
+    name: "Django"
   },
+
   {
     id: 1,
-    name: "Laravel",
+    name: "Python"
   },
 
   {
     id: 4,
-    name: "SQL",
+    name: "Nuxt.js"
   },
+
   {
     id: 5,
-    name: "Python",
+    name: "Typescript"
   },
+
   {
     id: 3,
-    name: "Tailwind CSS",
+    name: "PHP"
   },
+
   {
-    id: 2,
-    name: "Nuxt js",
+    id: 2
+    name: "Flutter"
   },
 ];
 </script>
@@ -49,7 +53,7 @@ const tools = [
         <img
           class="w-full h-5/6 md:mr-auto rounded md:self-center cursor-pointer ease-linear hover:-translate-x-4 hover:translate-y-4 transition-all duration-200"
           src="../assets/jadoo.png"
-          alt="Screenshot of jadoo website"
+          alt="Screenshot of Jadoo website"
         />
         <div
           class="absolute -z-10 rounded inset-0 border-4 h-5/6 border-cyan-500 transform transition-all duration-300 group-hover:bg-cyan-500"
@@ -62,16 +66,16 @@ const tools = [
         <p
           class="bg-inherit py-4 text-up w-full text-end md:w-5/6 md:ml-auto md:p-0 md:pb-4"
         >
-          Jadoo is a beautiful, responsive travel landing page built with
-          Nuxt and enhanced with subtle motion. It targets conversion and
-          visual storytelling for travel brands.
+          Jadoo is a beautiful, responsive travel landing page built 
+          with Nuxt and enhanced with subtle motion. It targets 
+          conversion and visual storytelling for travel brands.
         </p>
         <div class="grid md:gap-0">
           <ul
             class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-end gap-4"
           >
             <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Nuxt.js
+              <BulbIcon class="text-cyan-500" /> Vue.js
             </li>
             <li class="flex items-center">
               <BulbIcon class="text-cyan-500" /> Tailwind CSS
@@ -92,120 +96,56 @@ const tools = [
       </div>
     </div>
 
-    
-
-    <div
-      class="grid grid-cols-1 md:top-0 mb-28 relative lg:grid-cols-2 gap-4"
-      data-aos="fade-up"
-      data-aos-anchor-placement="bottom-bottom"
-      data-aos-duration="800"
-      data-aos-easing="linear"
-    >
-      <div class="relative group">
-        <img
-          class="w-full md:mr-auto rounded md:self-center cursor-pointer h-4/5 ease-linear hover:-translate-x-4 hover:translate-y-4 transition-all duration-200"
-          src="../assets/code.jpg"
-          alt="Screenshot of code"
-        />
-        <div
-          class="absolute -z-10 h-4/5 rounded inset-0 border-4 border-cyan-500 transform transition-all duration-300 group-hover:bg-cyan-500"
-        ></div>
-      </div>
-
-      <div class="py-4 md:p-0 bg-inherit rounded-md">
-        <h2 class="font-bold text-xl text-end text-cyan-500">
-          Authentication and authorization API
-        </h2>
-
-        <p
-          class="bg-inherit py-4 text-up w-full text-end md:w-5/6 md:ml-auto md:p-0 md:pb-4"
-        >
-          A role based user authentication and authorization API that ensures
-          secure access control for users with two distinct roles i.e "admin"
-          and "user". I Implemented token-based authentication using JSON Web
-          Tokens (JWT) to provide secure and stateless authentication. The
-          endpoints are also clearly documented using Swagger for easier use.
-        </p>
-        <div class="grid md:gap-0">
-          <ul
-            class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-end gap-4"
-          >
-            <li class="flex items-center gap-1">
-              <BulbIcon class="text-cyan-500" /> Node.js
-            </li>
-            <li class="flex items-center gap-1">
-              <BulbIcon class="text-cyan-500" /> express
-            </li>
-            <li class="flex items-center gap-1">
-              <BulbIcon class="text-cyan-500" /> PostgreSQL
-            </li>
-            <li class="flex items-center gap-1">
-              <BulbIcon class="text-cyan-500" /> Sequelize
-            </li>
-          </ul>
-        </div>
-
-        <div class="flex justify-end pt-10">
-          <a
-            aria-label="View the live version of this project"
-            href="https://github.com/munene-m/Auth-server"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:text-cyan-500 text-sm flex items-end gap-2 transition-all duration-200"
-            >View on Github <GithubIcon
-          /></a>
-        </div>
-      </div>
-    </div>
-
     <div
       class="grid grid-cols-1 relative lg:grid-cols-2 gap-4 mb-28"
       data-aos="fade-up"
       data-aos-anchor-placement="bottom-bottom"
-      data-aos-duration="900"
+      data-aos-duration="700"
       data-aos-easing="linear"
     >
       <div class="py-4 md:p-0 bg-inherit rounded-md order-last lg:order-first">
-        <h2 class="font-bold text-xl pb-2 text-cyan-500">Mobile Eats</h2>
+        <span
+          class="text-zinc-900 px-2 text-sm rounded-2xl bg-cyan-100 border-2 border-cyan-100 mb-2"
+          >Featured project</span
+        >
+        <h2 class="font-bold text-xl pb-2 text-cyan-500">
+          Fire photos website
+        </h2>
 
         <p class="bg-inherit py-4 w-full md:w-5/6 md:p-0 md:pb-4">
-          A comprehensive food delivery platform designed to provide users with
-          a convenient and enjoyable way to order food from their favorite local
-          restaurants and vendors. Customers can explore a wide variety of
-          dining options, place orders online, and have their chosen dishes
-          delivered straight to their doorstep. It is built as a Progressive Web
-          Application(PWA) and users can install it on any device.
+          Fire photos is a photography portfolio that let's photographers
+          showcase their work to potential clients. Fire photos is
+          developed using Nuxt.js and TailwindCSS.
         </p>
 
         <div class="grid md:gap-0">
           <ul
             class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-start gap-4"
           >
-            <li class="flex items-center gap-1">
-              <BulbIcon class="text-cyan-500" /> Vue.js
+            <li class="flex items-center">
+              <BulbIcon class="text-cyan-500" /> Nuxt.js
             </li>
-            <li class="flex items-center gap-1">
-              <BulbIcon class="text-cyan-500" /> Tailwind CSS
-            </li>
-            <li class="flex items-center gap-1">
+            <li class="flex items-center">
               <BulbIcon class="text-cyan-500" /> Typescript
             </li>
-            <li class="flex items-center gap-1">
-              <BulbIcon class="text-cyan-500" /> Mongo DB
-            </li>
-            <li class="flex items-center gap-1">
-              <BulbIcon class="text-cyan-500" /> Firebase cloud messaging
-            </li>
-            <li class="flex items-center gap-1">
-              <BulbIcon class="text-cyan-500" /> Google Maps API
+            <li class="flex items-center">
+              <BulbIcon class="text-cyan-500" /> TailwindCSS
             </li>
           </ul>
         </div>
 
         <div class="flex justify-start gap-5 pt-10">
           <a
+            aria-label="View this project on Github"
+            href="https://github.com/KennOtieno/fire_photos"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:text-cyan-500 flex items-end gap-2 text-sm transition-all duration-200"
+            ><GithubIcon />View on Github</a
+          >
+          <a
             aria-label="View the live version of this project"
-            href="https://www.mobile-eat.com/"
+            href="https://fire-photos-gamma.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             class="hover:text-cyan-500 flex items-end gap-2 text-sm transition-all duration-200"
@@ -215,79 +155,15 @@ const tools = [
       </div>
       <div class="relative group order-first lg:order-last">
         <img
-          class="w-full h-5/6 md:mr-auto rounded md:self-center cursor-pointer ease-linear hover:-translate-x-4 hover:translate-y-4 transition-all duration-200"
-          src="../assets/mobile-eats.png"
-          alt="Screenshot of Mobil-Eats web app"
+          class="w-full h-full md:mr-auto rounded md:self-center cursor-pointer ease-linear hover:-translate-x-4 hover:translate-y-4 transition-all duration-200"
+          src="../assets/firephotos.png"
+          alt="Screenshot of Fire photos website"
         />
         <div
-          class="absolute -z-10 rounded inset-0 border-4 border-cyan-500 h-5/6 transform transition-all duration-300 group-hover:bg-cyan-500"
+          class="absolute -z-10 rounded inset-0 border-4 border-cyan-500 transform transition-all duration-300 group-hover:bg-cyan-500"
+          style="height: 100%"
         ></div>
       </div>
     </div>
-    <!-- <div
-      class="grid grid-cols-1 md:top-0 mb-28 relative lg:grid-cols-2 gap-4"
-      data-aos="fade-up"
-      data-aos-anchor-placement="bottom-bottom"
-      data-aos-duration="800"
-      data-aos-easing="linear"
-    >
-      <div class="relative group">
-        <img
-          class="w-full h-5/6 md:mr-auto rounded md:self-center cursor-pointer ease-linear hover:-translate-x-4 hover:translate-y-4 transition-all duration-200"
-          src="../assets/mobile-eats.png"
-          alt="Screenshot of Mobil-Eats web app"
-        />
-        <div
-          class="absolute -z-10 rounded inset-0 border-4 border-cyan-500 h-5/6 transform transition-all duration-300 group-hover:bg-cyan-500"
-        ></div>
-      </div>
-      <div class="py-4 md:p-0 bg-inherit rounded-md">
-        <h2 class="font-bold text-xl text-cyan-500">Mobile Eats</h2>
-
-        <p class="bg-inherit py-4 text-up w-full md:w-5/6 md:p-0 md:pb-4">
-          A comprehensive food delivery platform designed to provide users with
-          a convenient and enjoyable way to order food from their favorite local
-          restaurants and vendors. Customers can explore a wide variety of
-          dining options, place orders online, and have their chosen dishes
-          delivered straight to their doorstep. It is built as a Progressive Web
-          Application(PWA) and users can install it on any device.
-        </p>
-        <div class="grid md:gap-0">
-          <ul
-            class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center gap-4"
-          >
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Vue.js
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Tailwind CSS
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Typescript
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Mongo DB
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Firebase cloud messaging
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Google Maps API
-            </li>
-          </ul>
-        </div>
-
-        <div class="flex pt-10">
-          <a
-            aria-label="View the live version of this project"
-            href="https://www.mobile-eat.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:text-cyan-500 text-sm flex items-end gap-2 transition-all duration-200"
-            ><LinkIcon />View Live</a
-          >
-        </div>
-      </div>
-    </div> -->
   </section>
 </template>
