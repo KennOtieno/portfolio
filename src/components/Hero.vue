@@ -1,5 +1,5 @@
 <script setup>
-import resume from "../assets/resume/Kennedy_Resume.pdf";
+import resume from "../src/assets/resume/Kennedy_Resume.pdf";
 function downloadResume() {
   const resumeUrl = resume;
   const link = document.createElement("a");
