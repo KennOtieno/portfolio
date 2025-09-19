@@ -1,12 +1,4 @@
 <script setup>
-import resume from "../assets/resume/Kennedy_Resume.pdf";
-function downloadResume() {
-  const resumeUrl = resume;
-  const link = document.createElement("a");
-  link.href = resumeUrl;
-  link.setAttribute("download", "Kennedy Otieno's resume.pdf");
-  link.click();
-}
 </script>
 
 <template>
@@ -29,13 +21,6 @@ function downloadResume() {
       ensures products are scalable, reliable, efficient, and aligned with
       business goals.
     </p>
-    <button
-      @click="downloadResume"
-      aria-label="This button is responsible for downloading my resume"
-      class="px-5 py-3 border border-cyan-500 rounded hover:bg-cyan-500 hover:text-zinc-800 transition-all eas duration-200"
-    >
-      View my resume 🔎
-    </button>
   </section>
 </template>
 
