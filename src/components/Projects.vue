@@ -109,13 +109,15 @@ const tools = [
           >Featured project</span
         >
         <h2 class="font-bold text-xl pb-2 text-cyan-500">
-          Fire photos website
+          Password Generator CLI
         </h2>
 
         <p class="bg-inherit py-4 w-full md:w-5/6 md:p-0 md:pb-4">
-          Fire photos is a photography portfolio that let's photographers
-          showcase their work to potential clients. Fire photos is
-          developed using Nuxt.js and TailwindCSS.
+          A lightweight command line tool that generates secure passwords
+          based on user defined options. Users can specify password length,
+          include special characters, and control complexity using command
+          line flags.Built with Go for speed, simplicity, and cross
+          platform support.
         </p>
 
         <div class="grid md:gap-0">
@@ -123,13 +125,7 @@ const tools = [
             class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-start gap-4"
           >
             <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Nuxt.js
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Typescript
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> TailwindCSS
+              <BulbIcon class="text-cyan-500" /> Go
             </li>
           </ul>
         </div>
@@ -137,27 +133,19 @@ const tools = [
         <div class="flex justify-start gap-5 pt-10">
           <a
             aria-label="View this project on Github"
-            href="https://github.com/KennOtieno/fire_photos"
+            href="https://github.com/KennOtieno/password_generator_cli"
             target="_blank"
             rel="noopener noreferrer"
             class="hover:text-cyan-500 flex items-end gap-2 text-sm transition-all duration-200"
             ><GithubIcon />View on Github</a
-          >
-          <a
-            aria-label="View the live version of this project"
-            href="https://fire-photos-gamma.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:text-cyan-500 flex items-end gap-2 text-sm transition-all duration-200"
-            ><LinkIcon />View Live</a
           >
         </div>
       </div>
       <div class="relative group order-first lg:order-last">
         <img
           class="w-full h-full md:mr-auto rounded md:self-center cursor-pointer ease-linear hover:-translate-x-4 hover:translate-y-4 transition-all duration-200"
-          src="../assets/firephotos.png"
-          alt="Screenshot of Fire photos website"
+          src="../assets/passwordcli.png.jpg"
+          alt="Screenshot of Password Generator CLI "
         />
         <div
           class="absolute -z-10 rounded inset-0 border-4 border-cyan-500 transform transition-all duration-300 group-hover:bg-cyan-500"
