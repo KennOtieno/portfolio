@@ -3,11 +3,11 @@ import BulbIcon from "./icons/BulbIcon.vue";
 const tools = [
   {
     id: 6,
-    name: "Django",
+    name: "Typescript",
   },
   {
     id: 9,
-    name: "Laravel",
+    name: "JavaScript",
   },
   {
     id: 1,
@@ -16,27 +16,27 @@ const tools = [
 
   {
     id: 4,
-    name: "Nuxt.js",
+    name: "Playwright",
   },
   {
     id: 5,
-    name: "Typescript",
+    name: "Test Management",
   },
   {
     id: 3,
-    name: "PHP",
+    name: "Git",
   },
   {
     id: 2,
-    name: "Flutter",
+    name: "Appium",
   },
   {
     id: 7,
-    name: "SQL",
+    name: "Cypress",
   },
   {
     id: 8,
-    name: "Redis",
+    name: "Postman",
   },
 ];
 </script>
@@ -62,11 +62,11 @@ const tools = [
 
       <div>
         <p>
-          I’m a Software Engineer who builds scalable, reliable, and user focused applications
-          that help businesses run smarter. I specialize in designing effecient backends, creating
-          seamless user interfaces, and optimizing systems for perfomance and growth. With hands
-          on experience in various technologies, I translate business needs into practical software
-          solutions that deliver real impact. Here are a couple of technologies I have been working with:
+          I’m a Software QA Engineer with hands on experience in manual and automation testing for web & mobile applications. 
+          I focus on identifying real product  risks early, improving release quality, and ensuring features behave
+          as intended from a user and business perspective.
+          Comfortable working with developers, CI pipelines, and fast moving product teams.
+          Here are a couple of technologies I have been working with:
         </p>
         <div class="grid grid-cols-2 gap-4 md:gap-0">
           <ul class="font-mono pt-4" v-for="tool in tools" :key="tool.id">

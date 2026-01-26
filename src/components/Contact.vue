@@ -9,9 +9,9 @@
       Get in touch
     </h2>
     <p class="md:w-1/2 m-auto text-center text-sm md:text-base">
-      I'm focused on building backend systems that are secure, scalable, and reliable.
-      If you're looking for someone who can turn complex requirements into practical
-      solutions, let's connect.
+      I focus on catching issues early and ensuring software works as intended.
+      If you're looking for a reliable QA Engineer to strengthen your product,
+      let's connect.
 
     </p>
     <button

@@ -13,13 +13,12 @@
       Kennedy Otieno.
     </h1>
     <h2 class="font-inter pb-4 font-bold text-zinc-500 text-4xl sm:text-5xl">
-      I engineer software solutions that are reliable, and scalable.
+      I ensure software is reliable and ready for production.
     </h2>
     <p class="sm:w-1/2 w-full text-lg pb-6">
-      I help companies bridge the gap between design and functionality by
-      building interactive user interfaces and robust APIs. My approach
-      ensures products are scalable, reliable, efficient, and aligned with
-      business goals.
+      I help teams catch issues early by validating user flows, system
+      behaviour, and release readiness. My work reduces production
+      bugs, improves product stability, and helps teams ship with confidence.
     </p>
   </section>
 </template>

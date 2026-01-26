@@ -6,32 +6,32 @@ import GithubIcon from "./icons/GithubIcon.vue";
 const tools = [
   {
     id : 6,
-    name: "Django"
+    name: "Playwright"
   },
 
   {
     id: 1,
-    name: "Python"
+    name: "Web Testing"
   },
 
   {
     id: 4,
-    name: "Nuxt.js"
+    name: "API Testing"
   },
 
   {
     id: 5,
-    name: "Typescript"
+    name: "Appium"
   },
 
   {
     id: 3,
-    name: "PHP"
+    name: "Postman"
   },
 
   {
     id: 2,
-    name: "Flutter"
+    name: "Typescript"
   },
 ];
 </script>
