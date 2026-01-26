@@ -61,7 +61,7 @@ const tools = [
       </div>
 
       <div class="py-4 md:p-0 bg-inherit rounded-md">
-        <h2 class="font-bold text-xl text-end text-cyan-500">Jadoo</h2>
+        <h2 class="font-bold text-xl text-end text-cyan-500">Orange-hrm Web App Test</h2>
 
         <p
           class="bg-inherit py-4 text-up w-full text-end md:w-5/6 md:ml-auto md:p-0 md:pb-4"
@@ -77,10 +77,10 @@ const tools = [
             class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-end gap-4"
           >
             <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Vue.js
+              <BulbIcon class="text-cyan-500" /> Playwright
             </li>
             <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Tailwind CSS
+              <BulbIcon class="text-cyan-500" /> TypeScript
             </li>
           </ul>
         </div>
@@ -111,15 +111,13 @@ const tools = [
           >Featured project</span
         >
         <h2 class="font-bold text-xl pb-2 text-cyan-500">
-          Password Generator CLI
+          JSONPlaceholder API Test
         </h2>
 
         <p class="bg-inherit py-4 w-full md:w-5/6 md:p-0 md:pb-4">
-          A lightweight command line tool that generates secure passwords
-          based on user defined options. Users can specify password length,
-          include special characters, and control complexity using command
-          line flags.Built with Go for speed, simplicity, and cross
-          platform support.
+          Automated validation of core JSONPlaceholder REST endpoints
+          using Playwright, focusing on HTTP status codes, response
+          structure, and required data fields
         </p>
 
         <div class="grid md:gap-0">
@@ -127,7 +125,7 @@ const tools = [
             class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-start gap-4"
           >
             <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Go
+              <BulbIcon class="text-cyan-500" /> Playwright APIRequest
             </li>
           </ul>
         </div>
@@ -135,7 +133,7 @@ const tools = [
         <div class="flex justify-start gap-5 pt-10">
           <a
             aria-label="View this project on Github"
-            href="https://github.com/KennOtieno/password_generator_cli"
+            href="https://github.com/KennOtieno/playwright-jsonplaceholder-api-tests"
             target="_blank"
             rel="noopener noreferrer"
             class="hover:text-cyan-500 flex items-end gap-2 text-sm transition-all duration-200"
@@ -146,8 +144,8 @@ const tools = [
       <div class="relative group order-first lg:order-last">
         <img
           class="w-full h-full md:mr-auto rounded md:self-center cursor-pointer ease-linear hover:-translate-x-4 hover:translate-y-4 transition-all duration-200"
-          src="../assets/passwordcli.png.jpg"
-          alt="Screenshot of Password Generator CLI "
+          src="../assets/jsonplace.png"
+          alt="Screenshot of JSONPlaceholder API "
         />
         <div
           class="absolute -z-10 rounded inset-0 border-4 border-cyan-500 transform transition-all duration-300 group-hover:bg-cyan-500"
