@@ -52,8 +52,8 @@ const tools = [
       <div class="relative group">
         <img
           class="w-full h-5/6 md:mr-auto rounded md:self-center cursor-pointer ease-linear hover:-translate-x-4 hover:translate-y-4 transition-all duration-200"
-          src="../assets/jadoo.png"
-          alt="Screenshot of Jadoo website"
+          src="../assets/orangehrm.png"
+          alt="Screenshot of Orangehrm website"
         />
         <div
           class="absolute -z-10 rounded inset-0 border-4 h-5/6 border-cyan-500 transform transition-all duration-300 group-hover:bg-cyan-500"
@@ -66,9 +66,11 @@ const tools = [
         <p
           class="bg-inherit py-4 text-up w-full text-end md:w-5/6 md:ml-auto md:p-0 md:pb-4"
         >
-          Jadoo is a beautiful, responsive travel landing page built 
-          with Nuxt and enhanced with subtle motion. It targets 
-          conversion and visual storytelling for travel brands.
+          End-to-end UI automation of core OrangeHRM workflows using Playwright (TypeScript).
+          Covered authentication, dashboard validation, and PIM employee management
+          (add, search, edit). Implemented Page Object Model (POM) for scalable test design,
+          used reliable locator strategies, and validated behavior through clear, user focused
+          UI assertions.
         </p>
         <div class="grid md:gap-0">
           <ul
@@ -85,12 +87,12 @@ const tools = [
 
         <div class="flex justify-end pt-10">
           <a
-            aria-label="View the live version of this project"
-            href="https://jadoo-sandy.vercel.app"
+            aria-label="View Github"
+            href="https://github.com/KennOtieno/playwright-orangehrm-web-tests"
             target="_blank"
             rel="noopener noreferrer"
             class="hover:text-cyan-500 flex items-end gap-2 text-sm transition-all duration-200"
-            ><LinkIcon />View Live</a
+            ><LinkIcon />View Github</a
           >
         </div>
       </div>
